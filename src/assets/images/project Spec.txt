@@ -1,0 +1,46 @@
+My sdg project
+Farm Produce Listing website
+
+Prepare a project management scheme with Jira
+ Highlight the features of the web app
+     Backend Features
+	Register feature
+	Login
+	post
+	update
+	read
+	delete
+	Admin privelages
+     Frontend Features
+	Register page
+	Login
+	post
+	update
+	read
+	delete
+	Admin privelages
+
+Build the backend with python Django
+ Register feature
+	Login
+	post
+	update
+	read
+	delete
+	Admin privelages
+
+Build the front end with bootstrap
+ Frontend Features
+	Register page
+	Login
+	post
+	update
+	read
+	delete
+	Admin privelages
+
+host the web app in Digital ocean or heroku
+	ssl
+	create account with digital ocean and heroku
+	host
+	assess
