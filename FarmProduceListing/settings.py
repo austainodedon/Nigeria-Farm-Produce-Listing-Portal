@@ -25,7 +25,7 @@ SECRET_KEY = 'rkf@i%f0w3cr=-n4ana8^=ee3h4bst+=zm+u!4lqf1ie1$b2@-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-ALLOWED_HOSTS = ['farmlistings.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['farmlisting.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
