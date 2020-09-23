@@ -22,7 +22,7 @@ const ListingDetail = (props) => {
     };
 
     axios
-      .get(`http://localhost:8000/api/listings/${slug}`, config)
+      .get(`${process.env.REACT_APP_API_URL}/api/listings/${slug}`, config)
       .then((res) => {
         setListing(res.data);
         setPrice(numberWithCommas(res.data.price));
@@ -41,7 +41,7 @@ const ListingDetail = (props) => {
 
     if (id) {
       axios
-        .get(`http://localhost:8000/api/resellars/${id}`, config)
+        .get(`${process.env.REACT_APP_API_URL}/api/resellars/${id}`, config)
         .then((res) => {
           setResellar(res.data);
         })

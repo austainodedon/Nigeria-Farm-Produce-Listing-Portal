@@ -37,7 +37,7 @@ const Contact = ({ setAlert }) => {
     setLoading(true);
     axios
       .post(
-        'http://localhost:8000/api/contacts/',
+        `${process.env.REACT_APP_API_URL}/api/contacts/`,
         { name, email, subject, message },
         config
       )

@@ -17,7 +17,7 @@ const About = () => {
     const getTopSeller = async () => {
       try {
         const res = await axios.get(
-          'http://localhost:8000/api/resellars/topseller',
+          `${process.env.REACT_APP_API_URL}/api/resellars/topseller`,
           config
         );
         setTopSeller(res.data);
@@ -37,7 +37,7 @@ const About = () => {
     const getResellars = async () => {
       try {
         const res = await axios.get(
-          'http://localhost:8000/api/resellars/',
+          `${process.env.REACT_APP_API_URL}/api/resellars/`,
           config
         );
         setResellars(res.data);
