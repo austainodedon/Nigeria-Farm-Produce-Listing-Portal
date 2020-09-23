@@ -1,3 +1,4 @@
+this is a farm produce listing app to connect buyers to farmers throught ressellars. it is built with Django, react and postgres
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
